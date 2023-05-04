@@ -6,7 +6,7 @@ using Microsoft.Extensions.Logging;
 
 namespace API
 {
-    public static class Function1
+    public static partial class Function1
     {
         [Function(nameof(Function1))]
         public static async Task<List<string>> RunOrchestrator(
